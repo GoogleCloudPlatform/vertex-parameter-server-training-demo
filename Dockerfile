@@ -12,7 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#FROM gcr.io/deeplearning-platform-release/tf2-gpu.2-15
 FROM us-docker.pkg.dev/vertex-ai/training/tf-cpu.2-14.py310:latest
 WORKDIR /app
 

@@ -250,8 +250,8 @@ def _train(  # pylint: disable=too-many-arguments,too-many-locals
         model_dir: Directory where the trained model will be saved.
         train_pattern: File pattern (e.g., glob) for training data.
         val_pattern: File pattern (e.g., glob) for validation data.
-        batch_size: Number of samples per training/validation step.
-        train_steps: Total number of training steps.
+        batch_size: Number of samples per training/validation step per worker.
+        train_steps: Total number of training steps per epoch.
         val_steps: Total number of validation steps per epoch.
         learning_rate: Learning rate for the optimizer.
         momentum: Momentum value for the optimizer.
